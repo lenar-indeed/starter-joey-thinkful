@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #0B1C51;
+}
+
+header h1 {
+    font-size: 52px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+header nav ul li a {
+    font-family: Montserrat;
+    color: #fff;
+    margin: 0 20px 0 0;
+    text-decoration: none;
+}
+
+header nav ul li:last-child a {
+    margin-right: 0;
+}
+
+@media all and (min-width: 600px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 30px;
+    }
+
+    header h1 {
+        font-size: 48px;
+        padding-top: 0;
+    }
+
+    header nav {
+        margin-top: 6px;
+    }
+}
